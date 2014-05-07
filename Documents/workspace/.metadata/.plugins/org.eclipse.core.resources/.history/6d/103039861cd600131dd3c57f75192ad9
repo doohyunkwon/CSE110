@@ -1,0 +1,13 @@
+package edu.ucsd.cse110.client;
+
+public class SendToUser implements Serializable{
+	private String recipient;
+	private String msg;
+	
+	public SendToUser(String recipient, String msg) {
+		super();
+		this.recipient = recipient;
+		this.msg = msg;
+	}
+	
+}

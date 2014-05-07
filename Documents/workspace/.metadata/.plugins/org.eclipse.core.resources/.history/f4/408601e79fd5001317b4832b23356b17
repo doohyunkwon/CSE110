@@ -1,0 +1,12 @@
+package edu.ucsd.cse110.server;
+
+public class Users {
+
+		private String username;
+		private String password;
+		
+		public Users(username, password) {
+			this.username = username;
+			this.password = password;
+		}
+}

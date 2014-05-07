@@ -1,0 +1,32 @@
+package edu.ucsd.cse110.server.db;
+
+import static org.junit.Assert.*;
+
+import java.util.Queue;
+
+import org.junit.Test;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import edu.ucsd.cse110.server.ChatServerApplication;
+
+public class Tests {
+
+	@Test
+	public void test() {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
+				ChatServerApplication.class);
+		
+		UserQueueRepository repository = context
+				.getBean(UserQueueRepository.class);
+		
+		Queue<String> msgQueue = new Queue<String>();
+		repository.save(new UserQueue("bob", msgQueue));
+		
+		
+		SendToUser message = new SendToUser()
+		
+	
+	
+	}
+
+}

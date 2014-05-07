@@ -1,0 +1,38 @@
+package edu.ucsd.cse110.server;
+
+import edu.ucsd.cse110.server.db.DataElement;
+import edu.ucsd.cse110.server.db.DataElementRepository;
+import edu.ucsd.cse110.server.db.UserQueue;
+import edu.ucsd.cse110.server.db.UserQueueRepository;
+
+public class Server {
+
+	private UserQueueRepository userQueueRepository;
+	
+	public Server() {}
+	
+	public Server(UserQueueRepository userQueueRepo) {
+		super();
+		this.userQueueRepository = userQueueRepo;
+	}
+	
+	
+	public void receive(String msg) {
+		System.out.println("Message received: " + msg);
+
+	}
+	
+	public void receive(SendToUser msg) {
+		String recipient = msg.getRecipient();
+		String message = msg.getMsg();
+		
+		Iterable<UserQueue> userQueues = userQueueRepository.findAll();
+		userQueues = userQueueRepository.findByName(recipient);
+		while(userQueues.iterator().hasNext()) {
+			UserQueue userQueue = userQueues.iterator().next();
+			userQueue.getQueue().add(message);
+		}
+		
+	}
+	
+}

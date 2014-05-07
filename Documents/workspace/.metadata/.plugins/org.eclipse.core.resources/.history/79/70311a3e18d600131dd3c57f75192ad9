@@ -1,0 +1,16 @@
+package edu.ucsd.cse110.server;
+
+public class Server {
+	public void receive(String msg) {
+		
+		if(msg.startsWith("/addFriend")) {
+			
+			
+		}
+		
+		
+		System.out.println("Message received: " + msg);
+		
+		
+	}
+}
