@@ -1,0 +1,29 @@
+package edu.ucsd.cse110.server;
+
+import edu.ucsd.cse110.server.db.DataElementRepository;
+
+public class Server {
+
+	private SendToUser sendToUserDatabase;
+	
+	public Server(SendToUser sendToUserRepo) {
+		this.sendToUserDatabase = sendToUserRepo;
+	}
+	
+	
+	public void receive(String msg) {
+		System.out.println("Message received: " + msg);
+
+	}
+	
+	public void receive(SendToUser msg) {
+		String recipient = msg.getRecipient();
+		String message = msg.getMsg();
+		
+		sendToUserDatabase
+		
+		
+		
+	}
+	
+}

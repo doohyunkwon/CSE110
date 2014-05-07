@@ -6635,3 +6635,208 @@ java.io.IOException: Server returned status code 403: Forbidden
 2014-05-07 12:23:38,932 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
 2014-05-07 12:23:38,934 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
 2014-05-07 12:23:38,935 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:37:40,155 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:37:40,155 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/main/resources
+2014-05-07 12:37:40,157 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:37:40,157 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/test/resources
+2014-05-07 12:38:35,499 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:38:35,499 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/main/resources
+2014-05-07 12:38:35,501 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:38:35,501 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/test/resources
+2014-05-07 12:38:53,863 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:38:53,864 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/main/resources
+2014-05-07 12:38:53,865 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:38:53,865 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/test/resources
+2014-05-07 12:38:53,873 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:38:53,874 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:38:53,875 [Worker-65] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:38:53,876 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:39:09,536 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:09,536 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/main/resources
+2014-05-07 12:39:09,538 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:09,538 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/test/resources
+2014-05-07 12:39:15,675 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:15,675 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:39:15,677 [Worker-64] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:15,677 [Worker-64] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:39:30,175 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:30,176 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:39:30,178 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:30,178 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:39:48,259 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:48,260 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:39:48,261 [Worker-70] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:39:48,261 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:40:15,652 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:40:15,653 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:40:15,654 [Worker-69] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:40:15,655 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:43:24,765 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:43:24,765 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:43:24,766 [Worker-68] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:43:24,766 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:54:03,257 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:54:03,258 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:54:03,259 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:54:03,259 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:55:13,282 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:55:13,283 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:55:13,284 [Worker-78] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:55:13,285 [Worker-78] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:56:44,110 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:56:44,110 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:56:44,111 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:56:44,112 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:56:50,053 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:56:50,054 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:56:50,055 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:56:50,055 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 12:56:57,276 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:56:57,277 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 12:56:57,278 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 12:56:57,279 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:00:13,500 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:00:13,502 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:00:13,503 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:00:13,504 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:02:00,872 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:02:00,873 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:02:00,874 [Worker-77] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:02:00,874 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:02:41,821 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:02:41,822 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:02:41,823 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:02:41,824 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:03:10,431 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:03:10,432 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:03:10,433 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:03:10,433 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:03:30,585 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:03:30,585 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:03:30,587 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:03:30,587 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:04:11,611 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:04:11,611 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:04:11,613 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:04:11,613 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:04:30,712 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:04:30,712 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:04:30,714 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:04:30,715 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:09:13,247 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:09:13,248 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:09:13,251 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:09:13,251 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:10:57,352 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:10:57,357 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:10:57,358 [Worker-82] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:10:57,359 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:11:07,770 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:11:07,771 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:11:07,772 [Worker-86] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:11:07,773 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:12:29,343 [Worker-84] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CSE110ChatSystem:ChatServer:0.0.1-SNAPSHOT @ /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/pom.xml.
+2014-05-07 13:12:30,749 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:12:30,750 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:12:30,752 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:12:30,752 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:12:30,898 [Worker-74] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CSE110ChatSystem:ChatServer:0.0.1-SNAPSHOT @ /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/pom.xml.
+2014-05-07 13:12:31,898 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:12:31,899 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:12:31,900 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:12:31,900 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:13:18,816 [Worker-74] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer
+2014-05-07 13:13:18,817 [Worker-74] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2014-05-07 13:13:41,409 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:13:41,411 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:13:41,413 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:13:41,413 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:13:49,103 [Worker-89] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer
+2014-05-07 13:13:49,104 [Worker-89] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2014-05-07 13:14:22,819 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:14:22,822 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:14:22,824 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:14:22,824 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:16:22,690 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:16:22,691 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:16:22,692 [Worker-85] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:16:22,693 [Worker-85] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:17:08,667 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer
+2014-05-07 13:17:08,667 [Worker-83] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2014-05-07 13:18:47,469 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:18:47,472 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:18:47,473 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:18:47,474 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:18:58,575 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:18:58,576 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/main/resources
+2014-05-07 13:18:58,578 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:18:58,578 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/src/test/resources
+2014-05-07 13:23:07,458 [Worker-89] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CSE110ChatSystem:ChatServer:0.0.1-SNAPSHOT @ /Users/byron/Documents/workspace/CSE110/CSE110/ChatServer/pom.xml.
+2014-05-07 13:23:08,015 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:23:08,024 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:23:08,026 [Worker-89] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:23:08,027 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:24:17,069 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:24:17,071 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:24:17,073 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:24:17,074 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:24:37,567 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:24:37,568 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:24:37,570 [Worker-95] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:24:37,570 [Worker-95] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:26:20,432 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:26:20,434 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:26:20,436 [Worker-96] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:26:20,437 [Worker-96] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:27:50,248 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:27:50,249 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:27:50,250 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:27:50,251 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:32:31,580 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:32:31,582 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:32:31,584 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:32:31,584 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:39:30,085 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:39:30,087 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:39:30,089 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:39:30,090 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:40:34,806 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:40:34,807 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:40:34,808 [Worker-94] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:40:34,809 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:43:21,601 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:43:21,603 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:43:21,604 [Worker-102] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:43:21,605 [Worker-102] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:47:55,587 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:47:55,587 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/main/resources
+2014-05-07 13:47:55,589 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:47:55,590 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/byron/Documents/workspace/CSE110/CSE110/ChatClient/src/test/resources
+2014-05-07 13:48:07,438 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:48:07,440 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:48:07,442 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:48:07,442 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:48:38,945 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:48:38,949 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:48:38,950 [Worker-108] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:48:38,950 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:49:57,323 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:49:57,326 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:49:57,328 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:49:57,328 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:50:05,108 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:50:05,109 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:50:05,112 [Worker-109] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:50:05,112 [Worker-109] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:50:14,131 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:50:14,132 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:50:14,134 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:50:14,134 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:50:49,431 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:50:49,434 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 13:50:49,436 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 13:50:49,436 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 14:14:07,374 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 14:14:07,376 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 14:14:07,378 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 14:14:07,379 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
