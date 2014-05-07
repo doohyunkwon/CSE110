@@ -6900,3 +6900,7 @@ java.io.IOException: Server returned status code 403: Forbidden
 2014-05-07 14:46:23,084 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2014-05-07 14:46:23,085 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
 2014-05-07 14:46:23,085 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 14:52:49,227 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 14:52:49,228 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-05-07 14:52:49,229 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+2014-05-07 14:52:49,230 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
