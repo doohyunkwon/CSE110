@@ -1,0 +1,76 @@
+package edu.ucsd.cse110.server.db;
+
+import java.util.HashMap;
+
+public class UserQueueTestRepository implements UserQueueRepository {
+	
+	HashMap<String, String> map;
+	
+	public long count() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public void delete(Integer arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(UserQueue arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(Iterable<? extends UserQueue> arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public boolean exists(Integer arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public Iterable<UserQueue> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Iterable<UserQueue> findAll(Iterable<Integer> arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public UserQueue findOne(Integer arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public <S extends UserQueue> S save(S arg0) {
+		map  = new HashMap<String, String>();
+		map.put(arg0.getName(), value)
+		
+	}
+	
+	
+
+	public <S extends UserQueue> Iterable<S> save(Iterable<S> arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Iterable<UserQueue> findByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	public void 
+	
+	
+
+}

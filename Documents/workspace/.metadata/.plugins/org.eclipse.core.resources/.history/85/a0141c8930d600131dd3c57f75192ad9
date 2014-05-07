@@ -1,0 +1,60 @@
+package edu.ucsd.cse110.server.db;
+
+
+import java.io.Serializable;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+//import javax.jms.Queue;
+import javax.jms.Session;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import org.springframework.context.annotation.Bean;
+
+@Entity
+public class UserFriends implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
+	@Id @GeneratedValue
+	public Integer getId() { return id; }
+	public void setId(Integer id) { this.id = id; }
+	private Integer id;
+	
+	@Column(name="dataName")
+	public String getName() {return name;}
+	public void setName(String name) {this.name = name;}
+	private String name;
+	
+	
+	public List<String> getFriendsList() {return friendsList;}
+	public void setFriendsList(List<String> friendsList) {this.friendsList=friendsList;}
+	private List<String> friendsList;
+
+	
+//	 @Bean
+//	 Queue clientQueue(ConnectionFactory factory) throws JMSException {
+//	 return queue = factory.createConnection().createSession(false, Session.AUTO_ACKNOWLEDGE).createTemporaryQueue();
+//	 }
+	
+	
+	public UserQueue() {	}
+	
+	public UserQueue(String name, Queue<String> msgQueue) {
+		this.name = name;
+		this.queue = msgQueue;
+	}
+
+	@Override
+	public String toString() {
+		return "DataElement [id=" + id + ", name=" + name + "]";
+	}	
+}
+
+

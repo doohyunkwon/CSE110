@@ -1,0 +1,8 @@
+package edu.ucsd.cse110.server.db;
+
+import org.springframework.data.repository.CrudRepository;
+
+
+public interface UserQueueRepository extends CrudRepository<UserQueue, Integer> {
+	public Iterable<DataElement> findByName(String name);
+}

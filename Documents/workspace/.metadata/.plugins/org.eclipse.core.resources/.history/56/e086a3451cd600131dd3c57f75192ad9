@@ -24,10 +24,6 @@ public class ChatClient {
 	
 	}
 	
-	public void send(SendToUser msg) throws JMSException {
-		producer.send(session.createObjectMessage(msg));
-	}
-	
 	public void send(AddFriend add) throws JMSException {
 		producer.send(session.createObjectMessage(add));
 		

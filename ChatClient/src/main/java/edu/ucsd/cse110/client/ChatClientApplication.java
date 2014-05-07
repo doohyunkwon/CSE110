@@ -66,10 +66,13 @@ public class ChatClientApplication {
 			 */
 			ChatClient client = wireClient();
 	        System.out.println("ChatClient wired.");
+	        
 			/* 
 			 * Now we can happily send messages around
 			 */
 			client.send("Hello World");
+			SendToUser sendToUser = new SendToUser("bob", "hi");
+			client.send(sendToUser);
 			System.out.println("Message Sent!");	
 	        System.exit(0);
 		} catch (JMSException e) {
