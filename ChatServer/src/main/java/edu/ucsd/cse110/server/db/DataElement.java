@@ -31,6 +31,7 @@ public class DataElement implements Serializable {
 	public DataElement(String name, int quantity) {
 		this.name = name;
 		this.quantity = quantity;
+		
 	}
 
 	@Override
