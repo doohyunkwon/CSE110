@@ -1,5 +1,7 @@
 package edu.ucsd.cse110.server;
 
+import java.net.URISyntaxException;
+
 import javax.jms.ConnectionFactory;
 import javax.jms.JMSException;
 import javax.jms.Message;
@@ -32,8 +34,8 @@ public class ChatServerApplication {
 	}
 
 	@Bean
-	MessageListenerAdapter receiver() {
-		return new MessageListenerAdapter(new Server()) {
+	MessageListenerAdapter receiver(JmsTemplate temp) throws JMSException, URISyntaxException {
+		return new MessageListenerAdapter(new Server(temp)) {
 			{
 				setDefaultListenerMethod("receive");
 			}
@@ -69,6 +71,7 @@ public class ChatServerApplication {
 		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);
 		System.out.println("Sending a new message: ping!");
 		jmsTemplate.send(Constants.QUEUENAME, messageCreator);
+		
 		// Wait 10 seconds
 		Thread.sleep(10000);
 		// Try the database

@@ -8,5 +8,5 @@ public interface Constants {
 	 * All Topics and Queues must start with TEAM.XX. 
 	 * where you should change XX with your team number.
 	*/
-	public static String QUEUENAME = "TEAM.99.test";
+	public static String QUEUENAME = "TEAM.24";
 }

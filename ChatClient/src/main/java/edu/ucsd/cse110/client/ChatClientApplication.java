@@ -2,87 +2,80 @@ package edu.ucsd.cse110.client;
 
 import java.net.URISyntaxException;
 
+import javax.jms.ConnectionFactory;
 import javax.jms.JMSException;
+import javax.jms.Message;
 import javax.jms.MessageProducer;
 import javax.jms.Queue;
 import javax.jms.Session;
 
 import org.apache.activemq.ActiveMQConnection;
+import org.apache.activemq.ActiveMQConnectionFactory;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jms.connection.CachingConnectionFactory;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
+import org.springframework.jms.listener.SimpleMessageListenerContainer;
+import org.springframework.jms.listener.adapter.MessageListenerAdapter;
 
+
+
+@Configuration
+@ComponentScan
+@EnableAutoConfiguration
 public class ChatClientApplication {
 
-	/*
-	 * This inner class is used to make sure we clean up when the client closes
-	 */
-	static private class CloseHook extends Thread {
-		ActiveMQConnection connection;
-		private CloseHook(ActiveMQConnection connection) {
-			this.connection = connection;
-		}
-		
-		public static Thread registerCloseHook(ActiveMQConnection connection) {
-			Thread ret = new CloseHook(connection);
-			Runtime.getRuntime().addShutdownHook(ret);
-			return ret;
-		}
-		
-		public void run() {
-			try {
-				System.out.println("Closing ActiveMQ connection");
-				connection.close();
-			} catch (JMSException e) {
-				/* 
-				 * This means that the connection was already closed or got 
-				 * some error while closing. Given that we are closing the
-				 * client we can safely ignore this.
-				*/
+	@Bean
+	ConnectionFactory connectionFactory() {
+		return new CachingConnectionFactory(new ActiveMQConnectionFactory(
+				Constants.USERNAME, Constants.PASSWORD, Constants.ACTIVEMQ_URL));
+	}
+
+	@Bean
+	MessageListenerAdapter receiver(JmsTemplate temp) throws JMSException, URISyntaxException {
+		return new MessageListenerAdapter(new ChatClient(temp)) {
+			{
+				setDefaultListenerMethod("receive");
 			}
-		}
+		};
 	}
 
-	/*
-	 * This method wires the client class to the messaging platform
-	 * Notice that ChatClient does not depend on ActiveMQ (the concrete 
-	 * communication platform we use) but just in the standard JMS interface.
-	 */
-	private static ChatClient wireClient() throws JMSException, URISyntaxException {
-		ActiveMQConnection connection = 
-				ActiveMQConnection.makeConnection(
-				Constants.USERNAME, Constants.PASSWORD, Constants.ACTIVEMQ_URL);
-        connection.start();
-        CloseHook.registerCloseHook(connection);
-        Session session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
-        Queue destQueue = session.createQueue(Constants.QUEUENAME);
-        MessageProducer producer = session.createProducer(destQueue);
-        return new ChatClient(producer,session);
-	}
-	
-	public static void main(String[] args) {
-		try {
-			
-			/* 
-			 * We have some other function wire the ChatClient 
-			 * to the communication platform
-			 */
-			ChatClient client = wireClient();
-	        System.out.println("ChatClient wired.");
-	        
-			/* 
-			 * Now we can happily send messages around
-			 */
-			client.send("Hello World");
-			SendToUser sendToUser = new SendToUser("bob", "hi");
-			client.send(sendToUser);
-			System.out.println("Message Sent!");	
-	        System.exit(0);
-		} catch (JMSException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (URISyntaxException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
+	@Bean
+	SimpleMessageListenerContainer container(
+			final MessageListenerAdapter messageListener,
+			final ConnectionFactory connectionFactory) {
+		return new SimpleMessageListenerContainer() {
+			{
+				setMessageListener(messageListener);
+				setConnectionFactory(connectionFactory);
+				setDestinationName(Constants.QUEUENAME);
+			}
+		};
 	}
 
+	@Bean
+	JmsTemplate jmsTemplate(ConnectionFactory connectionFactory) {
+		return new JmsTemplate(connectionFactory);
+	}
+
+
+	public static void main(String[] args) throws Throwable {
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
+				ChatClientApplication.class);
+		
+		JmsTemplate jmsTemplate = context.getBean(JmsTemplate.class);
+		ChatClient client = new ChatClient(jmsTemplate);
+		RequestQueueName rqn = new RequestQueueName("Byron");
+		client.send(rqn);
+		
+
+		// Wait 10 seconds
+		Thread.sleep(10000);
+		// Close the application
+		context.close();
+	}
 }
